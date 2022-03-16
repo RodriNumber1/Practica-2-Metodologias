@@ -11,7 +11,7 @@ public class Ejercicio3 {
             if (!(m.group(1) == null && m.group(2) == null)){
                 System.out.println("alumno "+ m.group(1) + " matriculado en " + m.group(2));
             } else {
-                System.out.println("profesor " + m.group(3) + " " + m.group(4));
+                System.out.println("profesor " + m.group(3) + " apellido " + m.group(4));
             }
         }
     }
